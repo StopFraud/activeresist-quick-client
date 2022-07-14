@@ -53,7 +53,7 @@ def service_check(pip):
             else:
                 good_proxy=0
             if good_proxy==1:
-                print('trying good proxy again'+str(pip))
+                print('trying good proxy again '+str(pip))
             else:
                 print('proxy became bad, quit')
         except Exception as e:
